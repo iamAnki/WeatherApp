@@ -70,24 +70,7 @@ catch(error)
 }
 
 
-
-
-
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 window.addEventListener("load" ,()=>{
 
 let long;
@@ -150,10 +133,6 @@ if(navigator.geolocation)
                         tempicon.src="./icons/clouds-and-sun.svg"
                     }
 
-
-
-
-
                     console.log(data);
 
 
@@ -162,10 +141,7 @@ if(navigator.geolocation)
 
 
 }
-    
-    
-    
-    )}
+       )}
 
 
 })
